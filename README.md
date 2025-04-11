@@ -22,7 +22,7 @@ This repository contains an AI-based multi-class classification model that detec
 
 ## 🚀 Features
 - Custom CNN Model** for X-ray classification
-- Transfer Learning Implementation** (ResNet, EfficientNet)
+- Transfer Learning Implementation** (ResNet50)
 - Flask API** for model inference
 - Angular Frontend** for real-time predictions
 - Performance Evaluation** using Accuracy, F1-score, Confusion Matrix
