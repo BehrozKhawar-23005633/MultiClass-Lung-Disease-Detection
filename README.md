@@ -1,4 +1,4 @@
-# AI-Pneumonia-Classifier
+# MultiClass-Lung-Disease-Detection
 
 ## 📌 Project Overview
 This repository contains an AI-based multi-class classification model that detects **Normal, Viral Pneumonia, COVID-19, and Lung Opacity** from chest X-ray images. The project leverages **Convolutional Neural Networks (CNNs) and Transfer Learning** to achieve high accuracy in medical image classification.
