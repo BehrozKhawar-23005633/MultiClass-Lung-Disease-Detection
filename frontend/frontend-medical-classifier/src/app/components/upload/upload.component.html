@@ -1,0 +1,18 @@
+<div class="upload-container">
+  <h2>📤 Upload Chest X-Ray</h2>
+
+  <div class="upload-box">
+    <label class="custom-file-upload">
+      <input type="file" accept="image/*" (change)="onFileSelected($event)" />
+      📁 Choose File
+    </label>
+    <button (click)="onAnalyze()" [disabled]="!selectedFile">
+      🔍 Analyze
+    </button>
+  </div>
+
+  <div class="image-preview" *ngIf="previewUrl">
+    <h4>🖼️ Preview</h4>
+    <img [src]="previewUrl" alt="Uploaded Image Preview" />
+  </div>
+</div>

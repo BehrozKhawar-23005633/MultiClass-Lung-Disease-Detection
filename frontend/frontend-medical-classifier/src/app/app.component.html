@@ -1,0 +1,7 @@
+<div class="app-container">
+    <app-upload (predictionResult)="handlePrediction($event)" (resetPrediction)="clearResult()"></app-upload>
+
+    <div #resultSection>
+        <app-result [prediction]="prediction" [clear]="clear"></app-result>
+    </div>
+</div>
